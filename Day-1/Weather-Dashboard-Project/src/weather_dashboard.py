@@ -95,3 +95,19 @@ class WeatherDashboard:
 
 if __name__ == "__main__":
     WeatherDashboard().main()
+
+from flask import Flask, render_template, jsonify
+app = Flask(__name__)
+
+@app.route('/')
+def dashboard():
+    cities = ['Pune', 'Delhi', 'Bangalore', 'Hyderabad', 'Chennai']
+    return render_template('dashboard.html', cities=cities)
+
+@app.route('/weather/<city>')
+def get_weather(city):
+    weather_data = get_weather(city)
+    return jsonify(weather_data)
+
+if __name__ == '__main__':
+    app.run(debug=True)
