@@ -1,0 +1,87 @@
+<mxfile host="65bd71144e">
+    <diagram id="j3Voydlt7Sxy1a7mIjUZ" name="Weather Dashboard Architecture">
+        <mxGraphModel dx="728" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="OpenWeather API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Weather Dashboard&#10;Python Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="AWS S3 Bucket" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Flask Backend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Web Dashboard&#10;(HTML/JS/CSS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="qmVt7cW2A3sWFAFn1v_X" name="Page-2">
+        <mxGraphModel dx="582" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-1" value="OpenWeather API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-2" value="Weather Dashboard&#10;Python Class" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-3" value="AWS S3 Bucket" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-4" value="Flask Backend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-5" value="Web Dashboard&#10;(HTML/JS/CSS)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;exitDx=0;exitDy=0;fillColor=#6a00ff;strokeColor=#3700CC;flowAnimation=1;" edge="1" parent="1" source="tbQfBESd5EVAhKs7lRRM-1" target="tbQfBESd5EVAhKs7lRRM-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-10" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=45;exitDy=26;exitPerimeter=0;entryX=0.317;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="479.4770655435141" y="104.02283181144952" as="sourcePoint"/>
+                        <mxPoint x="496.1528319087479" y="105.65565639851815" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-11" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;exitDx=0;exitDy=0;fillColor=#6a00ff;strokeColor=#3700CC;flowAnimation=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="109.5" as="sourcePoint"/>
+                        <mxPoint x="520" y="109.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-12" value="" style="endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;flowAnimation=1;exitX=0.067;exitY=1.053;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tbQfBESd5EVAhKs7lRRM-3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="190" as="sourcePoint"/>
+                        <mxPoint x="390" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="370" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-13" value="" style="endArrow=classic;html=1;fillColor=#6a00ff;strokeColor=#3700CC;flowAnimation=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="200" as="sourcePoint"/>
+                        <mxPoint x="390" y="420" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tbQfBESd5EVAhKs7lRRM-15" value="User Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
