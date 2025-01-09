@@ -115,18 +115,18 @@ def cleanup_old_data():
 [openweathermap api website](https://openweathermap.org/api)
 
 
-![alt text](image-5.png)
+![alt text](Images/image-5.png)
 
-![alt text](image-6.png)
+![alt text](Images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](Images/image-7.png)
 
-![alt text](image-2.png)
+![alt text](Images/image-2.png)
 
-![alt text](image.png)
+![alt text](Images/image.png)
 
-![alt text](image-1.png)
+![alt text](Images/image-1.png)
 
-![alt text](image-3.png)
+![alt text](Images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](Images/image-4.png)
