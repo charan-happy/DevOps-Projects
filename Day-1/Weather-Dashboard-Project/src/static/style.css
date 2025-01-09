@@ -1,0 +1,34 @@
+.dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #01121467;
+}
+
+.cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(43, 61, 61);
+}
+
+.city-card {
+    background: #d713a9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(168, 192, 14, 0.1);
+}
+
+.temperature {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+#temperatureChart {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background-color: bisque;
+}
