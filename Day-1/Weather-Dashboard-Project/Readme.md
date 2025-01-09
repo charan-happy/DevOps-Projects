@@ -1,5 +1,6 @@
 Weather Dashboard Documentation
 1. Project Structure
+```
 weather-dashboard/
 ├── src/
 │   ├── app.py
@@ -12,7 +13,7 @@ weather-dashboard/
 ├── .env
 ├── requirements.txt
 └── README.md
-
+```
 ## 2. Setup Instructions
 
 # Weather Dashboard Project
