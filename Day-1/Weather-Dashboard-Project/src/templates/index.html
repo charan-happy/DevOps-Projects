@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Weather Dashboard Project by GNC</h1>
+        <div class="cities-grid">
+            {% for city in cities %}
+            <div class="city-card" id="{{city}}">
+                <h2>{{city}}</h2>
+                <div class="weather-info">
+                    <p class="temperature">--°C</p>
+                    <p class="condition">--</p>
+                    <p class="humidity">Humidity: --%</p>
+                    <p class="wind">Wind: -- m/s</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <canvas id="temperatureChart"></canvas>
+    </div>
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</body>
+</html>
